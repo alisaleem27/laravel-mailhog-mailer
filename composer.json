@@ -1,0 +1,26 @@
+{
+    "name": "alisaleem/laravel-mailhog-mailer",
+    "description": "Add mail config for MailHog",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AliSaleem\\MailHogMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Saleem",
+            "email": "alisaleem@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliSaleem\\MailHogMailer\\MailHogMailerServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    }
+}
