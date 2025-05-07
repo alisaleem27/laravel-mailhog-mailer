@@ -10,6 +10,6 @@ class MailHogMailerServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        config()->set('mail.mailers.mailhog', require __DIR__.'/../config/mailhog.php');
+        $this->mergeConfigFrom(__DIR__ . '/../config/mailhog.php', 'mail.mailers.mailhog');
     }
 }
