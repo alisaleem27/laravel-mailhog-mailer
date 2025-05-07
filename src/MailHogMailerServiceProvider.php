@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AliSaleem\Smtp2GoMailer;
+namespace AliSaleem\MailHogMailer;
 
 use Illuminate\Support\ServiceProvider;
 
